@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://example.com/about/index.html</loc>
+    
+    <lastmod>2020-10-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/2020/10/10/md%E5%9F%BA%E7%A1%80%E6%A0%BC%E5%BC%8F/</loc>
+    
+    <lastmod>2020-10-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/friends/index.html</loc>
+    
+    <lastmod>2020-10-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/2020/10/10/%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/2020/10/09/hello-world/</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/index.html</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/index.html</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/Tocbot/index.html</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://example.com/photos/index.html</loc>
+    
+    <lastmod>2020-10-10</lastmod>
+    
+  </url>
+  
+
+  <url>
+    <loc>http://example.com/</loc>
+    <lastmod>2020-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://example.com/tags/Hexo/</loc>
+    <lastmod>2020-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/md%E5%9F%BA%E7%A1%80%E6%A0%BC%E5%BC%8F/</loc>
+    <lastmod>2020-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/%E7%AC%AC%E4%B8%80%E6%AC%A1/</loc>
+    <lastmod>2020-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/%E6%88%90%E9%95%BF/</loc>
+    <lastmod>2020-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/UI/</loc>
+    <lastmod>2020-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>http://example.com/categories/%E5%B8%83%E5%B1%80/</loc>
+    <lastmod>2020-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/%E7%AC%AC%E4%B8%80%E6%AC%A1/</loc>
+    <lastmod>2020-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/%E6%88%90%E9%95%BF/</loc>
+    <lastmod>2020-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>md基础格式</title>
+    <url>/2020/10/10/md%E5%9F%BA%E7%A1%80%E6%A0%BC%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="md编写格式"><a href="#md编写格式" class="headerlink" title="md编写格式"></a>md编写格式</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>使用标题是需要使用#号</p>
+<h2 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h2><p>这是第一个段落内容</p>
+<p>这是第二个段落内容</p>
+<a id="more"></a>
+<h2 id="区块引用"><a href="#区块引用" class="headerlink" title="区块引用"></a>区块引用</h2><blockquote>
+<p>这是一段引用段落，将会被高亮显示</p>
+</blockquote>
+<h2 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h2><p><a href="https://www.baidu.com/">百度</a></p>
+<h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><ul>
+<li>无序列表<ul>
+<li>第一层<br>*第二层</li>
+</ul>
+</li>
+<li>无序列表<h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2></li>
+</ul>
+<ol>
+<li>有序列表</li>
+<li>有序列表</li>
+<li>有序列表<h2 id="分格线"><a href="#分格线" class="headerlink" title="分格线"></a>分格线</h2></li>
+</ol>
+<hr>
+<hr>
+<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><figure class="highlight plain"><figcaption><span>type]</span></figcaption><table><tr><td class="code"><pre><span class="line">代码块</span><br></pre></td></tr></table></figure>
+<h2 id="表格用代码块演示"><a href="#表格用代码块演示" class="headerlink" title="表格用代码块演示"></a>表格用代码块演示</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">表格标题|表格标题|表格标题|表格标题</span><br><span class="line">表格格式 默认对齐 ---|--- 左对齐 :---|:--- 居中对齐 :---:|:---: 右对齐 ---:|---|:</span><br><span class="line">表格内容|表格内容|表格内容|表格内容</span><br></pre></td></tr></table></figure>
+<h2 id="表格演示"><a href="#表格演示" class="headerlink" title="表格演示"></a>表格演示</h2><table>
+<thead>
+<tr>
+<th align="center">table1</th>
+<th align="center">table1</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">zhangsan</td>
+<td align="center">23</td>
+</tr>
+<tr>
+<td align="center">李四</td>
+<td align="center">20</td>
+</tr>
+<tr>
+<td align="center">##</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>布局</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>md基础格式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World（很熟悉吧，heihei）</title>
+    <url>/2020/10/09/hello-world/</url>
+    <content><![CDATA[<p>总算完成了一个小目标。。。</p>
+<h2 id="庆幸自己能坚持到现在"><a href="#庆幸自己能坚持到现在" class="headerlink" title="庆幸自己能坚持到现在"></a>庆幸自己能坚持到现在</h2><p>创建博客一方面帮助自己记录学习心得，一方面也能帮助他人解决问题。想想就有些小兴奋</p>
+<h3 id="记录想法、记录历程"><a href="#记录想法、记录历程" class="headerlink" title="记录想法、记录历程"></a>记录想法、记录历程</h3><p>这个听起来好虚无缥缈， 每个劝人写作的鸡汤都这样说，有意思吗？是没意思，可是事实确实如此，你体验不到的东西，不代表不存在。<a id="more"></a><br>最典型的莫过于一个场景，你查了很多资料和花费巨大精力，解决了一个很麻烦的问题，然后你很开心，就直接花了一个小时，把今天解决问题的思路、资料、和解决方案、感想一口气写成了一篇文章，发布到了你的博客上。<br>写完之后，你就关掉电脑，休息了。可能过些天很多细节你就忘了，然后你在另外一个项目又碰到了类似的问题，啊啊啊啊啊，棘手啊，怎么办？叮咚！我好像记录了这个问题的解决方案诶，于是，你打开自己的博客，输入关键字，一下就找到了那篇博客，然后看了一眼里面的内容，问题迎刃而解。<br>因为你以往的日记，直接帮你节省了至少半天的时间，这难道不是我们平时遇到的场景吗？如果同样一个人，没写博客，他就要在从新摸索一遍，真的丧啊。（嫖的。。）</p>
+<h3 id="班门弄斧一下"><a href="#班门弄斧一下" class="headerlink" title="班门弄斧一下"></a>班门弄斧一下</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public class GLDaoImpl implements GLDao &#123;</span><br><span class="line">    private JdbcTemplate template &#x3D;new JdbcTemplate(JDBCutil.getDataSource());</span><br><span class="line">    @Override</span><br><span class="line">    public GL logingl(GL loginss)&#123;</span><br><span class="line">        &#x2F;&#x2F;使用JDBC操作数据库</span><br><span class="line">        try &#123;</span><br><span class="line">            String sql&#x3D;&quot;select * from gl where username&#x3D;? and password&#x3D;?&quot;;</span><br><span class="line">            GL user &#x3D; template.queryForObject</span><br><span class="line">                    (sql, new BeanPropertyRowMapper&lt;GL&gt;(GL.class),</span><br><span class="line">                            loginss.getUsername(), loginss.getPassword());</span><br><span class="line">            return user;</span><br><span class="line">        &#125; catch (DataAccessException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">        return null;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="付出总会有回报，这句话不骗人，坚持下来也是一种能力，曾国藩说：世间最容易的是坚持二字，最难的也是坚持二字，成了可成大事。-普通人，更要珍惜和规划自己的有效时间，本就不长的人生里，在互联网里务必留下你精彩的财富！"><a href="#付出总会有回报，这句话不骗人，坚持下来也是一种能力，曾国藩说：世间最容易的是坚持二字，最难的也是坚持二字，成了可成大事。-普通人，更要珍惜和规划自己的有效时间，本就不长的人生里，在互联网里务必留下你精彩的财富！" class="headerlink" title="付出总会有回报，这句话不骗人，坚持下来也是一种能力，曾国藩说：世间最容易的是坚持二字，最难的也是坚持二字，成了可成大事。 普通人，更要珍惜和规划自己的有效时间，本就不长的人生里，在互联网里务必留下你精彩的财富！"></a>付出总会有回报，这句话不骗人，坚持下来也是一种能力，曾国藩说：世间最容易的是坚持二字，最难的也是坚持二字，成了可成大事。 普通人，更要珍惜和规划自己的有效时间，本就不长的人生里，在互联网里务必留下你精彩的财富！</h3>]]></content>
+      <categories>
+        <category>第一次</category>
+        <category>成长</category>
+      </categories>
+      <tags>
+        <tag>第一次</tag>
+        <tag>成长</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>本地图片不显示问题</title>
+    <url>/2020/10/10/%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="博客图片不显示问题"><a href="#博客图片不显示问题" class="headerlink" title="博客图片不显示问题"></a>博客图片不显示问题</h2><p>修改博客根目录中的_config.yml文件的配置post_asset,其默认为false将其改为true<br>当我们设置结束后，通过hexo new(可简写“n”)新建博客后，会产生一个与文件同名的<br>文件夹。</p>
+<a id="more"></a>
+<h2 id="下载hexo插件"><a href="#下载hexo插件" class="headerlink" title="下载hexo插件"></a>下载hexo插件</h2><p>在博客根目录下使用npm安装插件(如果显示如图警告可以忽略)<br><img src="/2020/10/10/%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/fsevents.png" alt="警告"><br>这个警告，是应为fsevents是一个可选的依赖项,它仅在mac环境上运行时才<br>使用，如果你使用的是其他系统就会警告。所有我们忽略它</p>
+<div align="center">
+<img src="/2020/10/10/%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/fenye.jpg" width="250" height="150">
+</div>
+##]]></content>
+      <categories>
+        <category>布局</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>UI</tag>
+      </tags>
+  </entry>
+</search>
