@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-10-10T12:19:22.057Z</updated>
+  <updated>2020-10-11T11:12:50.694Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2020/10/10/%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/"/>
     <id>http://example.com/2020/10/10/%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</id>
     <published>2020-10-10T07:33:58.000Z</published>
-    <updated>2020-10-10T12:19:22.057Z</updated>
+    <updated>2020-10-11T11:12:50.694Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;博客图片不显示问题&quot;&gt;&lt;a href=&quot;#博客图片不显示问题&quot; class=&quot;headerlink&quot; title=&quot;博客图片不显示问题&quot;&gt;&lt;/a&gt;博客图片不显示问题&lt;/h2&gt;&lt;p&gt;修改博客根目录中的_config.yml文件的配置post_asset,其默认为false将其改为true&lt;br&gt;当我们设置结束后，通过hexo new(可简写“n”)新建博客后，会产生一个与文件同名的&lt;br&gt;文件夹。&lt;/p&gt;</summary>
