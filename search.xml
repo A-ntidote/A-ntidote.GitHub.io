@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>本地图片不显示问题</title>
-    <url>/2020/10/10/%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h2 id="博客图片不显示问题"><a href="#博客图片不显示问题" class="headerlink" title="博客图片不显示问题"></a>博客图片不显示问题</h2><p>修改博客根目录中的_config.yml文件的配置post_asset,其默认为false将其改为true<br>当我们设置结束后，通过hexo new(可简写“n”)新建博客后，会产生一个与文件同名的<br>文件夹。</p>
-<a id="more"></a>
-<h2 id="下载hexo插件"><a href="#下载hexo插件" class="headerlink" title="下载hexo插件"></a>下载hexo插件</h2><p>在博客根目录下使用npm安装插件(如果显示如图警告可以忽略)<br><img src="/2020/10/10/%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/fsevents.png" alt="警告"><br>这个警告，是应为fsevents是一个可选的依赖项,它仅在mac环境上运行时才<br>使用，如果你使用的是其他系统就会警告。所有我们忽略它</p>
-<div align="center">
-<img src="/2020/10/10/%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/fenye.jpg" width="250" height="150">
-</div>]]></content>
-      <categories>
-        <category>布局</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>UI</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World（很熟悉吧，heihei）</title>
     <url>/2020/10/09/hello-world/</url>
     <content><![CDATA[<p>总算完成了一个小目标。。。</p>
@@ -91,9 +74,26 @@
       </tags>
   </entry>
   <entry>
+    <title>本地图片不显示问题</title>
+    <url>/2020/10/10/%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="博客图片不显示问题"><a href="#博客图片不显示问题" class="headerlink" title="博客图片不显示问题"></a>博客图片不显示问题</h2><p>修改博客根目录中的_config.yml文件的配置post_asset,其默认为false将其改为true<br>当我们设置结束后，通过hexo new(可简写“n”)新建博客后，会产生一个与文件同名的<br>文件夹。</p>
+<a id="more"></a>
+<h2 id="下载hexo插件"><a href="#下载hexo插件" class="headerlink" title="下载hexo插件"></a>下载hexo插件</h2><p>在博客根目录下使用npm安装插件(如果显示如图警告可以忽略)<br><img src="/2020/10/10/%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/fsevents.png" alt="警告"><br>这个警告，是应为fsevents是一个可选的依赖项,它仅在mac环境上运行时才<br>使用，如果你使用的是其他系统就会警告。所有我们忽略它</p>
+<div align="center">
+<img src="/2020/10/10/%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/fenye.jpg" width="250" height="150">
+</div>]]></content>
+      <categories>
+        <category>布局</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>UI</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>表单提交错误</title>
     <url>/2020/10/12/%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4%E9%94%99%E8%AF%AF/</url>
-    <content><![CDATA[<h2 id="在编写Servlet中实现表单提交程序中，出现-500-java-lang-NoClassDefFoundError-org-apache-commons-collections-FastHashMap报错："><a href="#在编写Servlet中实现表单提交程序中，出现-500-java-lang-NoClassDefFoundError-org-apache-commons-collections-FastHashMap报错：" class="headerlink" title="在编写Servlet中实现表单提交程序中，出现 -500 java.lang.NoClassDefFoundError: org/apache/commons/collections/FastHashMap报错："></a>在编写Servlet中实现表单提交程序中，出现 -500 java.lang.NoClassDefFoundError: org/apache/commons/collections/FastHashMap报错：</h2><p>其原因所在就是commons-collection-4.X以上的包中不存在FastHashMap方法，只需要替换成commons-collection-3.2版本即可（记得导入JAR包，然后重启Tomcat）<br>BeanUtil-1.9.3+<br>Collection-3.2.2+<br>loggin-1.2<br>下载地址是：<a href="http://commons.apache.org/">JAR</a><br>也可以将BeanUtil-1.9.3+改成BeanUtil-1.8.3<br>需要安装的JAR包：BeanUtil-1.8.3.jar和commons-loggin-1.2.jar</p>
+    <content><![CDATA[<h2 id="在编写Servlet中实现表单提交程序中，出现-500-java-lang-NoClassDefFoundError-org-apache-commons-collections-FastHashMap报错："><a href="#在编写Servlet中实现表单提交程序中，出现-500-java-lang-NoClassDefFoundError-org-apache-commons-collections-FastHashMap报错：" class="headerlink" title="在编写Servlet中实现表单提交程序中，出现 -500 java.lang.NoClassDefFoundError: org/apache/commons/collections/FastHashMap报错："></a>在编写Servlet中实现表单提交程序中，出现 -500 java.lang.NoClassDefFoundError: org/apache/commons/collections/FastHashMap报错：</h2><p>其原因所在就是commons-collection-4.X以上的包中不存在FastHashMap方法，只需要替换成commons-collection-3.2版本即可（记得导入JAR包，然后重启Tomcat）<br>BeanUtil-1.9.3+<br>Collection-3.2.2+<br>loggin-1.2<a id="more"></a><br>下载地址是：<a href="http://commons.apache.org/">JAR</a><br>也可以将BeanUtil-1.9.3+改成BeanUtil-1.8.3<br>需要安装的JAR包：BeanUtil-1.8.3.jar和commons-loggin-1.2.jar</p>
 ]]></content>
       <categories>
         <category>request</category>
