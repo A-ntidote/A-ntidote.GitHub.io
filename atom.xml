@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-10-13T06:23:31.894Z</updated>
+  <updated>2020-10-13T08:24:38.477Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MyBatis</title>
+    <link href="http://example.com/2020/10/13/MyBatis/"/>
+    <id>http://example.com/2020/10/13/MyBatis/</id>
+    <published>2020-10-13T07:50:48.000Z</published>
+    <updated>2020-10-13T08:24:38.477Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;MyBatis概述&quot;&gt;&lt;a href=&quot;#MyBatis概述&quot; class=&quot;headerlink&quot; title=&quot;MyBatis概述:&quot;&gt;&lt;/a&gt;MyBatis概述:&lt;/h2&gt;&lt;p&gt;MyBatis是当前JAVA Web开发中流行的持久化ORM框架，它对JDBC进行了封装化简，无需JDVX的注册驱动，创建Connection连接、配置Statement等繁琐过程，大大减少了JDBC代码。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="MyBatis" scheme="http://example.com/categories/MyBatis/"/>
+    
+    
+    <category term="概述" scheme="http://example.com/tags/%E6%A6%82%E8%BF%B0/"/>
+    
+    <category term="知识点" scheme="http://example.com/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>微服务中的组件与技术选型</title>

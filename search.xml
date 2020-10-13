@@ -18,6 +18,32 @@
       </tags>
   </entry>
   <entry>
+    <title>MyBatis</title>
+    <url>/2020/10/13/MyBatis/</url>
+    <content><![CDATA[<h2 id="MyBatis概述"><a href="#MyBatis概述" class="headerlink" title="MyBatis概述:"></a>MyBatis概述:</h2><p>MyBatis是当前JAVA Web开发中流行的持久化ORM框架，它对JDBC进行了封装化简，无需JDVX的注册驱动，创建Connection连接、配置Statement等繁琐过程，大大减少了JDBC代码。<a id="more"></a></p>
+<h3 id="ORM框架原理："><a href="#ORM框架原理：" class="headerlink" title="ORM框架原理："></a>ORM框架原理：</h3><p>Java程序常常要连接并操作数据库，但两者的数据类型往往并不匹配，java是面向对象的语言，java语言中操作的单元是类于对象，而数据库的数据格式是关系类型。为了匹配java面向对象<br>于关系型数据库的数据类型，人们发明了ORM框架。用于将java中的对象映射成数据库中的记录，对象中的属性映射为数据库表单中的字段，程序员可以使用面向对象编程的方式来操作数据库。<br>例如在程序代码中添加一个对象则数据库中添加一行对于的记录。常见的ORM框架有Hibernate、MyBatis。</p>
+<h3 id="ORM框架原理图："><a href="#ORM框架原理图：" class="headerlink" title="ORM框架原理图："></a>ORM框架原理图：</h3><div align="center">
+<img src="/2020/10/13/MyBatis/ORM.jpg">
+</div>
+### MyBatis与Hibernate的比较：
+Hibernate框架是”全自动“的ORM，使用完全的数据库封装机制实现对象和数据库表之间的映射自动生成与执行SQL语句，数据无关性比较好，方便移植
+MyBatis框架是”半自动“的ORM，需要程序员自行改编SQL语句，MyBatis在通过映射文件将返回的结果字段映射到指定对象。MyBatis无法做到数据库无关系性，每次只能针对一个数据库做开发
+
+<h4 id="与Hibernate相比MyBatis具有以下几点优点"><a href="#与Hibernate相比MyBatis具有以下几点优点" class="headerlink" title="与Hibernate相比MyBatis具有以下几点优点"></a>与Hibernate相比MyBatis具有以下几点优点</h4><ol>
+<li>SQL语句与代码分离。只需要在XML映射文件中配置SQL语句，而无需在java代码中编写SQL语句，该程序的维护带来了很大的便利</li>
+<li>手写SQL,灵活方便，查询效率高，能过完成比较复杂的查询</li>
+<li>采用原生SQL语言，无需学习面向对象的HQL语言，相对简单易上手</li>
+</ol>
+]]></content>
+      <categories>
+        <category>MyBatis</category>
+      </categories>
+      <tags>
+        <tag>概述</tag>
+        <tag>知识点</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>md基础格式</title>
     <url>/2020/10/10/md%E5%9F%BA%E7%A1%80%E6%A0%BC%E5%BC%8F/</url>
     <content><![CDATA[<h1 id="md编写格式"><a href="#md编写格式" class="headerlink" title="md编写格式"></a>md编写格式</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>使用标题是需要使用#号</p>
@@ -104,6 +130,20 @@
       </tags>
   </entry>
   <entry>
+    <title>表单提交错误</title>
+    <url>/2020/10/12/%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4%E9%94%99%E8%AF%AF/</url>
+    <content><![CDATA[<h2 id="在编写Servlet实现表单提交程序中，出现-500-java-lang-NoClassDefFoundError-org-apache-commons-collections-FastHashMap报错："><a href="#在编写Servlet实现表单提交程序中，出现-500-java-lang-NoClassDefFoundError-org-apache-commons-collections-FastHashMap报错：" class="headerlink" title="在编写Servlet实现表单提交程序中，出现 -500 java.lang.NoClassDefFoundError: org/apache/commons/collections/FastHashMap报错："></a>在编写Servlet实现表单提交程序中，出现 -500 java.lang.NoClassDefFoundError: org/apache/commons/collections/FastHashMap报错：</h2><p>其原因所在就是commons-collection-4.X以上的包中不存在FastHashMap方法，只需要替换成commons-collection-3.2版本即可（记得导入JAR包，然后重启Tomcat）<br>BeanUtil-1.9.3+<br>Collection-3.2.2+<br>loggin-1.2<a id="more"></a><br>下载地址是：<a href="http://commons.apache.org/">JAR</a><br>也可以将BeanUtil-1.9.3+改成BeanUtil-1.8.3<br>需要安装的JAR包：BeanUtil-1.8.3.jar和commons-loggin-1.2.jar</p>
+]]></content>
+      <categories>
+        <category>request</category>
+        <category>工具包</category>
+        <category>版本问题</category>
+      </categories>
+      <tags>
+        <tag>表单提交</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>本地图片不显示问题</title>
     <url>/2020/10/10/%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h2 id="博客图片不显示问题"><a href="#博客图片不显示问题" class="headerlink" title="博客图片不显示问题"></a>博客图片不显示问题</h2><p>修改博客根目录中的_config.yml文件的配置post_asset,其默认为false将其改为true<br>当我们设置结束后，通过hexo new(可简写“n”)新建博客后，会产生一个与文件同名的<br>文件夹。</p>
@@ -118,20 +158,6 @@
       <tags>
         <tag>Hexo</tag>
         <tag>UI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>表单提交错误</title>
-    <url>/2020/10/12/%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4%E9%94%99%E8%AF%AF/</url>
-    <content><![CDATA[<h2 id="在编写Servlet实现表单提交程序中，出现-500-java-lang-NoClassDefFoundError-org-apache-commons-collections-FastHashMap报错："><a href="#在编写Servlet实现表单提交程序中，出现-500-java-lang-NoClassDefFoundError-org-apache-commons-collections-FastHashMap报错：" class="headerlink" title="在编写Servlet实现表单提交程序中，出现 -500 java.lang.NoClassDefFoundError: org/apache/commons/collections/FastHashMap报错："></a>在编写Servlet实现表单提交程序中，出现 -500 java.lang.NoClassDefFoundError: org/apache/commons/collections/FastHashMap报错：</h2><p>其原因所在就是commons-collection-4.X以上的包中不存在FastHashMap方法，只需要替换成commons-collection-3.2版本即可（记得导入JAR包，然后重启Tomcat）<br>BeanUtil-1.9.3+<br>Collection-3.2.2+<br>loggin-1.2<a id="more"></a><br>下载地址是：<a href="http://commons.apache.org/">JAR</a><br>也可以将BeanUtil-1.9.3+改成BeanUtil-1.8.3<br>需要安装的JAR包：BeanUtil-1.8.3.jar和commons-loggin-1.2.jar</p>
-]]></content>
-      <categories>
-        <category>request</category>
-        <category>工具包</category>
-        <category>版本问题</category>
-      </categories>
-      <tags>
-        <tag>表单提交</tag>
       </tags>
   </entry>
   <entry>
