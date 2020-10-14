@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-10-14T07:56:52.164Z</updated>
+  <updated>2020-10-14T09:51:55.710Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2020/10/14/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/"/>
     <id>http://example.com/2020/10/14/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/</id>
     <published>2020-10-14T07:23:32.000Z</published>
-    <updated>2020-10-14T07:56:52.164Z</updated>
+    <updated>2020-10-14T09:51:55.710Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;前因：&quot;&gt;&lt;a href=&quot;#前因：&quot; class=&quot;headerlink&quot; title=&quot;前因：&quot;&gt;&lt;/a&gt;前因：&lt;/h2&gt;&lt;p&gt;最近在学习微服务时，无意间接触到负载均衡这个名词。当时也没有在意，后因为考试原因查看无线传感网络资料”拓扑控制的基本策略”中有提到了“负载均衡”一词。抱着刨根问底的态度，决定一探究竟：&lt;/p&gt;</summary>
